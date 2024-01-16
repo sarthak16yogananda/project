@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prashanti Ayurvedic centre</title>
+        <style>
+            .header{
+                width: 1,440px;
+                height: 80px;
+                padding: 16px, 166px, 16px, 166px;
+                gap: 16px;
+                background-color: #0B425A;
+            }
+            h1{
+                width: 1,176px;
+                height: 74px;
+                margin-top: 2px;
+                margin-left: 161px;
+                padding: 16px;
+                gap: 16px;
+                font:times;
+                color:white;
+            }
+            .header1{
+                width: 304px;
+                height: 32px;
+                top: 60px;
+                margin-left: 166px;
+            }
+            h3{
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 29px;
+                letter-spacing: -0.02em;
+                text-align: left;
+            }
+            .body1{
+                width: 1108px;
+                height: 32px;
+                top: 142px;
+                margin-left: 166px;
+            }
+            p{
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: -0.3199999928474426px;
+                text-align: left;
+                color: #212529;
+            }
+            .body2{
+                width: 1,110px;
+                height: 687px;
+                top: 201px;
+                margin-left: 165px;
+                gap: 24px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="header">
+        <h1>Prashanthi Ayurvedic Centre</h1>
+    </div>
+    <div class="header1">
+        <h3>Get your Appointment here</h3>
+    </div>
+    <div class="body1">
+        <p>Get your appointment by filling your details and selection of date and time slot. Here you can see only which is available slot and easly you can complete this booking system hassleless.
+            Once you submit the request you need to have athounticate the booking by entering the OTP. Once you enter and submit the OTP, we will send the confirmation SMS on your mobile</p>
+    </div>
+    <br>
+    <div class="body2">
+        <form action="button3">
+        <label for="patients">Select number of patient</label>
+        <br>
+        <select name="patient" id="patient">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
 
+        <p>select slot</p>
+        <input type="radio" id="slot1" name="morning" value="morning">
+        <label for="morning">morning</label>
+        <input type="radio" id="slot2" name="evening" value="evening">
+        <label for="evening">evening</label><br>
+
+        <p>Type</p>
+        <input type="radio" id="Follow-up" name="Follow-up" value="Follow-up">
+        <label for="Follow-up">Follow-up</label>
+        <input type="radio" id="New" name="New" value="New">
+        <label for="New">New</label><br>
+        <br>
+        <br>
+        <label for="name">Name*</label>
+        <input type="text" id="Name" name="Name">
+
+        <label for="name">Mobile*</label>
+        <input type="text" id="Mobile" name="Mobile">
+        <br>
+        <br>
+
+
+        <label for="name">Patient ID</label>
+        <input type="text" id="Patient_ID" name="Patient_ID">
+
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email">
+        <br>
+
+        <input type="checkbox" id="terms" name="terms" value="terms">
+        <label for="term"> I agree for prashanthi ayurvedic Centre terms and conditions</label><br>
+
+        <br>
+        <button type="submit" id="button1">Get appointment</button>
+        <button type="submit" id="button2">Cancel</button>
+        <button type="reset" value="Reset" id="button3">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
