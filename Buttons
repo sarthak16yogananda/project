@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Current and Next Six Dates on Buttons</title>
+</head>
+<body>
+
+<!-- Create seven buttons with unique IDs -->
+<button id="dateButton0">Current Date</button>
+<button id="dateButton1">Date 1</button>
+<button id="dateButton2">Date 2</button>
+<button id="dateButton3">Date 3</button>
+<button id="dateButton4">Date 4</button>
+<button id="dateButton5">Date 5</button>
+<button id="dateButton6">Date 6</button>
+
+<script>
+  // Function to update button text with the current date and the next six dates
+  function displayCurrentAndNextSixDates() {
+    // Get the current date
+    var currentDate = new Date();
+
+    // Loop to update the text of each button with the current date and the next six dates
+    for (var i = 0; i <= 6; i++) {
+      // Calculate the date for the current button
+      var displayDate = new Date(currentDate);
+      displayDate.setDate(currentDate.getDate() + i);
+
+      // Format the date as desired (you can customize this part)
+      var options = { year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = displayDate.toLocaleDateString('en-US', options);
+
+      // Get the button element by its ID
+      var button = document.getElementById("dateButton" + i);
+
+      // Update the button text with the formatted date
+      button.innerHTML = formattedDate;
+    }
+  }
+
+  // Call the function to display the current date and the next six dates immediately
+  displayCurrentAndNextSixDates();
+</script>
+
+</body>
+</html>
