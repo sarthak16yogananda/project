@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body1{
+    width: 100%;
+    height: 80px;
+    background-color: #0B425A;
+    
+}
+.body3{
+    width: 83px;
+    height: 80px;
+    background: #FFFFFF;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+.image1{
+    width: 67.34px;
+    height: 48px;
+    margin-left: 7px;
+    margin-top: 16px;
+}
+.heading1{
+    padding-left: 180px;
+    padding-top: 20px;
+    font: times;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 34.5px;
+    align-items: center;
+    display: flex;
+}
+.heading2{
+    width: 304px;
+    height: 29px;
+    margin-top: 16px;
+    margin-left: 180px;
+}
+.heading2-head{
+    font:inter;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #152536;
+}
+.paragraph{
+    width:1000px;
+    height: 32px;
+    margin-top: 21px;
+    margin-left: 180px;
+}
+.paragraph-1{
+    font-style: arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #212529;
+}
+.body-details{
+    width: 1010px;
+    height: 687px;
+    margin-left: 180px;
+    margin-top: 27px;
+}
+#no-of-patient{
+    font-style: arial;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #212529;
+    width: 200px;
+    height: 20px;
+}
+.dropdown-patient{
+    margin-top: 8px;
+}
+.patient-number{
+    width: 65px;
+    height: 38px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+#select-date{
+    width: 200px;
+    height:20px;
+    margin-top: 24px;
+    font-style: arial;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #212529;
+}
+.date-selection{
+    width:1137px;
+    height: 38px;
+    margin-top: 8px;
+}
+#dateButton0{
+    width: 159px;
+    height:35px;
+    border-radius: 4px;
+    background: #0CADA4;
+    border-style: hidden;
+    color:white;
+    float: left;
+    margin-right: 31px;
+}
+#dateButton1{
+    width: 159px;
+    height:35px;
+    border-radius: 4px;
+    background: #0CADA4;
+    border-style: hidden;
+    color:white;
+    float: left;
+    margin-right: 31px;
+}
+#dateButton2{
+    width: 159px;
+    height:35px;
+    border-radius: 4px;
+    background: #0CADA4;
+    border-style: hidden;
+    color:white;
+    float: left;
+    margin-right: 31px;
+}
+#dateButton3{
+    width: 159px;
+    height:35px;
+    border-radius: 4px;
+    background: #0CADA4;
+    border-style: hidden;
+    color:white;
+    float: left;
+    margin-right: 31px;
+}
+#dateButton4{
+    width: 159px;
+    height:35px;
+    border-radius: 4px;
+    background: #0CADA4;
+    border-style: hidden;
+    color:white;
+    float: left;
+    margin-right: 31px;
+}
+#dateButton5{
+    width: 159px;
+    height:35px;
+    border-radius: 4px;
+    background: #0CADA4;
+    border-style: hidden;
+    color:white;
+}
+#select-slot{
+    height: 16px;
+    width: 100px;
+    margin-top: 24px;
+    font-style: arial;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #212529;
+}
+#slot1{
+    margin-top: 11px;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+#morning{
+    font-style: arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
+    width: 49px;
+    height: 16px;
+    text-align: center;
+    word-wrap: break-word;
+    color: #212529;
+    letter-spacing: -0.32px;
+}
+#slot2{
+    margin-left: 32px;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+#evening{
+    font-style: arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
+    width: 49px;
+    height: 16px;
+    text-align: center;
+    word-wrap: break-word;
+    color: #212529;
+    letter-spacing: -0.32px;
+}
+
